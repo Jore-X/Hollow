@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,13 +13,16 @@
         <img src="./assets/img/icon/hollow.ico" alt="" />
         <h3>Hollow Knight</h3>
       </a>
-      <nav>
+    </header>
+    <button class="btn" id="toggle-btn">☰</button>
+    <main>
+      <aside class="sidebar" id="sidebar">
+        <h6>MENU</h6>
         <ul>
           <a href="#analise-aprofundada">
             <li>
               <div class="icons-header">
                 <h1>🧠</h1>
-                <p>Análise Aprofundada</p>
               </div>
             </li>
           </a>
@@ -27,7 +30,6 @@
             <li>
               <div class="icons-header">
                 <h1>⚔️</h1>
-                <p>Combate</p>
               </div>
             </li>
           </a>
@@ -35,7 +37,6 @@
             <li>
               <div class="icons-header">
                 <h1>🗡️</h1>
-                <p>Ferrão</p>
               </div>
             </li>
           </a>
@@ -43,7 +44,6 @@
             <li>
               <div class="icons-header">
                 <h1>🧙‍♀️</h1>
-                <p>Feitiços</p>
               </div>
             </li>
           </a>
@@ -51,7 +51,6 @@
             <li>
               <div class="icons-header">
                 <h1>💠</h1>
-                <p>Alma e Cura</p>
               </div>
             </li>
           </a>
@@ -59,7 +58,6 @@
             <li>
               <div class="icons-header">
                 <h1>🪬</h1>
-                <p>Amuletos</p>
               </div>
             </li>
           </a>
@@ -67,7 +65,6 @@
             <li>
               <div class="icons-header">
                 <h1>🌀</h1>
-                <p>Habilidades</p>
               </div>
             </li>
           </a>
@@ -75,7 +72,6 @@
             <li>
               <div class="icons-header">
                 <h1>🎯</h1>
-                <p>Precisão</p>
               </div>
             </li>
           </a>
@@ -83,14 +79,12 @@
             <li>
               <div class="icons-header">
                 <h1>🧪</h1>
-                <p>Progressão</p>
               </div>
             </li>
           </a>
         </ul>
-      </nav>
-    </header>
-    <main>
+      </aside>
+
       <section id="enunciado">
         <section id="bem-vindo">
           <div>
@@ -169,15 +163,13 @@
         </section>
       </section>
       <section id="analise-aprofundada">
-        <h1>🧠 Análise Aprofundada</h1>
+        <h1>🧠Análise Aprofundada</h1>
         <section id="historia-narrativa">
           <div class="texto-apresentativo">
             <h2>História e Narrativa</h2>
             <p>
               A trama central gira em torno de uma infecção misteriosa que
               corrompeu os habitantes de Hallownest.
-            </p>
-            <p>
               O Cavaleiro é uma das várias "vasilhas" criadas para conter essa
               infecção, mas apenas ele permanece em busca de uma solução
               definitiva.
@@ -246,21 +238,21 @@
                     src="./assets/gifs/fights/falso cavaleiro fight.gif"
                     alt="luta contra o falso cavaleiro"
                   />
-                  <h1>Luta contra o Falso Cavaleiro</h1>
+                  <h1>Falso Cavaleiro</h1>
                 </div>
                 <div class="combate-divs">
                   <img
                     src="./assets/gifs/fights/Lords.gif"
                     alt="luta contra os lords"
                   />
-                  <h1>Luta contra Os Lords Louva-Deus</h1>
+                  <h1>Lords Louva-Deus</h1>
                 </div>
                 <div class="combate-divs">
                   <img
                     src="./assets/gifs/fights/hornet da borda.gif"
                     alt="luta contra a hornet da borda"
                   />
-                  <h1>Luta contra a Hornet da Borda</h1>
+                  <h1>Hornet da Borda</h1>
                 </div>
               </div>
             </div>
@@ -570,7 +562,7 @@
     </main>
     <footer>
       <div>
-        <h4>Visite as Redes Sociais do Jogo</h4>
+        <h4>Redes Sociais do Jogo</h4>
         <div>
           <a href="https://www.instagram.com/teamcherryunofficial"
             ><img src="./assets/img/icon/white-instagram-icon-png.png" alt=""
@@ -583,12 +575,21 @@
           /></a>
         </div>
       </div>
-      <div>
-        <h4>E a minha também</h4>
+      <!-- <div>
+        <h4>By=></h4>
         <a href="https://www.instagram.com/dheymerson_caetano"
           ><img src="./assets/img/icon/white-instagram-icon-png.png" alt=""
         /></a>
-      </div>
+      </div> -->
     </footer>
+    <script>
+      const btn = document.getElementById('toggle-btn');
+      const sidebar = document.getElementById('sidebar');
+
+      btn.addEventListener('click', () => {
+        sidebar.classList.toggle('active');
+        btn.classList.toggle('active');
+      });
+    </script>
   </body>
 </html>
