@@ -153,6 +153,9 @@ footer > div > a > img {
 /*____________________________________________________________________________________*/
 /* _____________________________________________ */
 .btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgb(1, 20, 60);
   box-shadow: 0.1vw 0.1vw 0.1vw;
   z-index: 5;
@@ -193,7 +196,7 @@ footer > div > a > img {
 }
 .p-bold-2 {
   font-weight: bold;
-  padding: 2rem;
+  padding: 2vh;
 }
 .p-descrition {
   max-width: 1000px;
@@ -324,7 +327,6 @@ footer > div > a > img {
 
 .cards-ferrao:hover {
   transform: scale(1.2);
-  height: auto;
   transition: 1s;
 }
 
@@ -341,27 +343,27 @@ footer > div > a > img {
   background-color: black;
   color: rgb(207, 195, 195);
   border-radius: 50px;
-  padding: 2rem;
+  padding: 1vw;
+  margin: 0.5vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   border: 3px solid rgb(130, 131, 133);
-  width: 350px;
+  width: 35vw;
   transition: 1s;
 }
 
 .cards-feiticos:hover {
-  width: 450px;
-  height: auto;
+  transform: scale(1.2);
   transition: 1s;
 }
 
 .cards-feiticos > div {
-  padding: 1.5rem;
+  padding: 2vh;
 }
 .cards-feiticos img {
-  width: 300px;
+  width: 25vw;
   height: auto;
   border-radius: 10px;
 }
@@ -369,22 +371,22 @@ footer > div > a > img {
 .cards-charms {
   background-color: rgb(240, 240, 240);
   border-radius: 50px;
-  padding: 2rem;
+  padding: 2vh;
+  margin: 2vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   border: 3px solid rgb(16, 36, 75);
-  width: 345px;
+  width: 40vh;
   transition: 1s;
 }
 .cards-charms:hover {
-  width: 400px;
-  height: auto;
+  transform: scale(1.2);
   transition: 1s;
 }
 .cards-charms > div {
-  padding: 1.5rem;
+  padding: 2vh;
 }
 .cards-charms > p {
   padding: 0.5rem;
@@ -399,26 +401,32 @@ footer > div > a > img {
   background-color: rgb(0, 0, 0);
   color: rgb(192, 196, 199);
   border-radius: 50px;
-  padding: 2rem;
+  padding: 4vh;
+  margin: 1vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   border: 3px solid rgb(130, 131, 133);
-  width: 385px;
+  width: 35vw;
   transition: 1s;
 }
 .cards-skills:hover {
-  width: 485px;
-  height: auto;
+  transform: scale(1.2);
   transition: 1s;
 }
-/* _____________________________________________ */
 .cards-skills > div {
-  padding: 1.5rem;
+  padding: 1vh;
+}
+.cards-skills > p {
+  text-align: center;
+}
+.cards-skills > div > p {
+  font-weight: bold;
+  text-align: center;
 }
 .cards-skills img {
-  width: auto;
+  width: 80%;
   height: auto;
   border-radius: 10px;
 }
@@ -439,6 +447,9 @@ footer > div > a > img {
 }
 /* _____________________________________________ */
 .soul-divs {
+  width: 40vw;
+  margin: 1vh;
+  padding: 2vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -450,8 +461,7 @@ footer > div > a > img {
 }
 /* _____________________________________________ */
 .text-gif-soul {
-  width: 500px;
-  padding: 2rem;
+  padding: 2vh;
   text-align: center;
 }
 /* _____________________________________________ */
@@ -705,7 +715,7 @@ _______________________________________________________________________________*
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1450px;
+  width: 90vw;
   padding: 2rem;
   background-color: rgb(40, 55, 70);
   box-shadow: 0 0 15px rgb(145, 113, 94);
@@ -758,12 +768,12 @@ _______________________________________________________________________________*
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1450px;
-  padding: 2rem;
+  width: 95%;
+  padding: 3vh;
   background-color: rgb(40, 55, 70);
   box-shadow: 0 0 15px rgb(145, 113, 94);
-  border-radius: 125px;
-  margin: 100px;
+  border-radius: 50px;
+  margin: 10vh;
   scroll-margin-top: 200px; /* Procurei aprender na internet para poder resolver um problema! */
 }
 /* _____________________________________________ */
@@ -771,12 +781,12 @@ _______________________________________________________________________________*
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1650px;
+  width: 95vw;
   padding: 2rem;
   background-color: rgb(40, 55, 70);
   box-shadow: 0 0 15px rgb(145, 113, 94);
-  border-radius: 125px;
-  margin-bottom: 150px;
+  border-radius: 50px;
+  margin-bottom: 30vh;
   scroll-margin-top: 110px; /* Procurei aprender na internet para poder resolver um problema! */
 }
 /* _____________________________________________ */
@@ -829,9 +839,9 @@ _______________________________________________________________________________*
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 500px;
+  width: 70vw;
   border-radius: 30px;
-  padding: 1.5rem;
+  padding: 2vh;
   margin-top: 35px;
   margin-bottom: 50px;
   color: rgb(0, 15, 40);
@@ -853,7 +863,7 @@ _______________________________________________________________________________*
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 1100px;
+  width: 70vw;
   border-radius: 30px;
   padding: 1rem;
   margin-top: 35px;
@@ -879,7 +889,7 @@ _______________________________________________________________________________*
   flex-direction: column;
   color: rgb(0, 15, 40);
   background-color: rgb(49, 113, 150);
-  width: 700px;
+  width: 70vw;
   border-radius: 30px;
   padding: 1rem;
   margin-top: 50px;
@@ -903,7 +913,7 @@ _______________________________________________________________________________*
   flex-direction: column;
   color: rgb(176, 181, 189);
   background-color: rgb(14, 16, 49);
-  width: 900px;
+  width: 70vw;
   border-radius: 30px;
   padding: 2rem;
   margin-top: 50px;
@@ -926,7 +936,7 @@ _______________________________________________________________________________*
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 1100px;
+  width: 70vw;
   border-radius: 50px;
   padding: 0.3rem;
   margin-top: 25px;
@@ -950,7 +960,7 @@ _______________________________________________________________________________*
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 800px;
+  width: 70vw;
   border-radius: 50px;
   padding: 1rem;
   margin-top: 25px;
@@ -980,17 +990,22 @@ _______________________________________________________________________________*
 }
 #caixa-feiticos {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
 }
 #caixa-charms {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
   color: rgb(218, 211, 205);
 }
 #caixa-skills {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-around;
   width: 100%;
 }
@@ -1015,7 +1030,7 @@ _______________________________________________________________________________*
   align-items: center;
   background-color: black;
   padding: 3rem;
-  width: 750px;
+  width: 85vw;
   margin-top: 30px;
   border-radius: 25px;
   border: 2px solid rgba(212, 212, 212, 0.295);
@@ -1028,11 +1043,11 @@ _______________________________________________________________________________*
 }
 
 #amul-espacos > p {
-  text-align: center;
-  width: 500px;
+  text-align: justify;
+  width: 80%;
 }
 #amul-espacos > img {
-  width: 500px;
+  width: 80%;
 }
 /* _____________________________________________ */
 #gifs-fight {
@@ -1069,7 +1084,7 @@ _______________________________________________________________________________*
 }
 
 #gifs-soul > div > img {
-  width: 400px;
+  width: 25vw;
   height: auto;
   border-radius: 20px;
   transition: 1s;
@@ -1083,26 +1098,36 @@ _______________________________________________________________________________*
 /* _____________________________________________ */
 #gifs-precicion {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 100%;
 }
-#gifs-precicion > div {
+#gifs-precicion-text {
   color: rgb(220, 220, 220);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-#gifs-precicion > img {
-  width: 400px;
+#gifs-precicion-gifs{
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+}
+#gifs-precicion > div > h1 {
+  text-align: center;
+  font-size: 2vh;
+}
+#gifs-precicion > div > img {
+  width: 35vw;
   height: auto;
+  margin: 1vh;
   border-radius: 20px;
   border: 5px solid rgb(3, 19, 49);
   transition: 1s;
 }
 
-#gifs-precicion > img:hover {
+#gifs-precicion > div > img:hover {
   border: 3px solid rgb(132, 154, 194);
   box-shadow: 0 0 25px 10px rgb(0, 15, 40);
   transform: scale(1.3); /* Procurei aprender na internet para poder impor minhas ideias! */
@@ -1111,6 +1136,7 @@ _______________________________________________________________________________*
 /* _____________________________________________ */
 #gifs-progress {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
 }
@@ -1118,22 +1144,22 @@ _______________________________________________________________________________*
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 4vh;
+  margin: 1vh;
   justify-content: space-around;
   background-color: rgb(15, 25, 40);
   color: rgb(220, 220, 220);
   border-radius: 50px;
   border: 2px solid rgb(130, 131, 133);
-  width: 500px;
+  width: 35vw;
 }
 
 #gifs-progress > div > p {
-  max-width: 500px;
-  padding: 2rem;
-  text-align: center;
+  text-align: justify;
 }
 
 #gifs-progress > div > img {
-  width: 400px;
+  width: 110%;
   height: auto;
   border-radius: 20px;
   transition: 1s;
@@ -1183,6 +1209,49 @@ _______________________________________________________________________________*
 }
 .cards-ferrao {
   width: 60vw;
+}
+/* _____________________________________________ */
+
+#caixa-feiticos{
+  flex-direction: column;
+}
+.cards-feiticos {
+  width: 60vw;
+}
+/* _____________________________________________ */
+#gifs-soul{
+  flex-wrap: wrap;
+}
+#gifs-soul > div > img{
+  width: 50vw;
+}
+.soul-divs{
+  width: 90vw;
+}
+/* _____________________________________________ */
+
+#caixa-charms{
+  flex-direction: column;
+}
+.cards-charms {
+  width: 60vw;
+}
+/* _____________________________________________ */
+
+#caixa-skills{
+  flex-direction: column;
+}
+.cards-skills {
+  width: 60vw;
+}
+/* _____________________________________________ */
+#gifs-precicion > div > img{
+  width: 45vw;
+  margin-bottom: 5vw;
+}
+/* _____________________________________________ */
+#gifs-progress > div{
+  width: 65vw;
 }
 /* _____________________________________________ */
 }/*____________________________________________________________________________________*/

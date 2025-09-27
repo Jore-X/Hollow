@@ -169,10 +169,9 @@
             <h2>História e Narrativa</h2>
             <p>
               A trama central gira em torno de uma infecção misteriosa que
-              corrompeu os habitantes de Hallownest.
-              O Cavaleiro é uma das várias "vasilhas" criadas para conter essa
-              infecção, mas apenas ele permanece em busca de uma solução
-              definitiva.
+              corrompeu os habitantes de Hallownest. O Cavaleiro é uma das
+              várias "vasilhas" criadas para conter essa infecção, mas apenas
+              ele permanece em busca de uma solução definitiva.
             </p>
             <p> </p>
             <p>
@@ -457,28 +456,28 @@
             <div id="caixa-skills">
               <div class="cards-skills">
                 <div>
-                  <p class="p-bold">Manto de Asa de Mariposa</p>
+                  <p>Manto de Asa de Mariposa</p>
                 </div>
                 <img src="./assets/img/skills/Mothwing Cloak.jpg" alt="" />
                 <p>Dash para esquiva e acesso a novas áreas.</p>
               </div>
               <div class="cards-skills">
                 <div>
-                  <p class="p-bold">Asas do Monarca</p>
-                </div>
-                <img src="./assets/img/skills/Monarch Wings.jpg" alt="" />
-                <p>Pulo duplo.</p>
-              </div>
-              <div class="cards-skills">
-                <div>
-                  <p class="p-bold">Coração de Cristal</p>
+                  <p>Coração de Cristal</p>
                 </div>
                 <img src="./assets/img/skills/Crystal Heart.jpg" alt="" />
                 <p>Um impulso rápido em linha reta.</p>
               </div>
               <div class="cards-skills">
                 <div>
-                  <p class="p-bold">Lágrima de Isma</p>
+                  <p>Asas do Monarca</p>
+                </div>
+                <img src="./assets/img/skills/Monarch Wings.jpg" alt="" />
+                <p>Pulo duplo.</p>
+              </div>
+              <div class="cards-skills">
+                <div>
+                  <p>Lágrima de Isma</p>
                 </div>
                 <img src="./assets/img/skills/Isma’s Tear.jpg" alt="" />
                 <p>Permite nadar em água ácida.</p>
@@ -503,18 +502,20 @@
               </p>
             </div>
             <div id="gifs-precicion">
-              <img
-                src="./assets/gifs/parkour/cerras.gif"
-                alt="parkour palacio branco"
-              />
-              <div>
+              <div id="gifs-precicion-text">
                 <h1>Path of Pain</h1>
                 <h1>(Caminho da Dor)</h1>
               </div>
-              <img
-                src="./assets/gifs/parkour/cerras & espinhos.gif"
-                alt="parkour palacio branco"
-              />
+              <div id="gifs-precicion-gifs">
+                <img
+                  src="./assets/gifs/parkour/cerras.gif"
+                  alt="parkour palacio branco"
+                />
+                <img
+                  src="./assets/gifs/parkour/cerras & espinhos.gif"
+                  alt="parkour palacio branco"
+                />
+              </div>
             </div>
           </div>
           <div id="div-progress">
@@ -528,7 +529,7 @@
             </div>
             <div id="gifs-progress">
               <div>
-                <p class="p-bold-2">Geo</p>
+                <h5>Geo</h5>
                 <img
                   src="./assets/gifs/fights/inseto de escudo.gif"
                   alt=" luta inseto de escudo"
@@ -539,12 +540,12 @@
                 </p>
               </div>
               <div>
-                <p class="p-bold-2">Bancos</p>
+                <h5>Bancos</h5>
                 <img src="./assets/gifs/banco.gif" alt="bancos" />
                 <p>Servem como pontos de descanso (e salvamento).</p>
               </div>
               <div>
-                <p class="p-bold-2">Sistema de morte</p>
+                <h5>Sistema de morte</h5>
                 <img
                   src="./assets/gifs/soul/alma.gif"
                   alt="alma do cavaleiro"
@@ -583,12 +584,12 @@
       </div> -->
     </footer>
     <script>
-      const btn = document.getElementById('toggle-btn');
-      const sidebar = document.getElementById('sidebar');
+      const btn = document.getElementById("toggle-btn");
+      const sidebar = document.getElementById("sidebar");
 
-      btn.addEventListener('click', () => {
-        sidebar.classList.toggle('active');
-        btn.classList.toggle('active');
+      btn.addEventListener("click", () => {
+        sidebar.classList.toggle("active");
+        btn.classList.toggle("active");
       });
     </script>
   </body>
