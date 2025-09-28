@@ -278,6 +278,7 @@ footer > div > a > img {
   text-align: center;
   align-items: center;
   width: 100%;
+  border-radius: 50px;
 }
 /* _____________________________________________ */
 .personagem-narrativa {
@@ -342,8 +343,8 @@ footer > div > a > img {
 .cards-feiticos {
   background-color: black;
   color: rgb(207, 195, 195);
-  border-radius: 50px;
-  padding: 1vw;
+  border-radius: 35px;
+  padding: 2vh;
   margin: 0.5vh;
   display: flex;
   flex-direction: column;
@@ -370,9 +371,9 @@ footer > div > a > img {
 /* _____________________________________________ */
 .cards-charms {
   background-color: rgb(240, 240, 240);
-  border-radius: 50px;
+  border-radius: 35px;
   padding: 2vh;
-  margin: 2vh;
+  margin: 2vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -564,14 +565,14 @@ _______________________________________________________________________________*
 }
 /* _____________________________________________ */
 #historia-narrativa {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
   padding: 2vh;
   background-color: rgb(16, 36, 75);
-  border-radius: 100px;
+  border-radius: 50px;
   box-shadow: 0px -10px 10px rgb(16, 36, 75), 0px 10px 10px rgb(16, 36, 75);
 }
 /* _____________________________________________ */
@@ -656,7 +657,6 @@ _______________________________________________________________________________*
 #mecanica-combate {
   color: rgb(220, 220, 220);
   background-color: rgb(16, 36, 75);
-  border-radius: 100px;
   box-shadow: 0px -10px 10px rgb(16, 36, 75), 0px 10px 10px rgb(16, 36, 75);
 }
 /* _____________________________________________ */
@@ -668,7 +668,7 @@ _______________________________________________________________________________*
   padding: 2rem;
   background-color: rgb(40, 55, 70);
   box-shadow: 0 0 15px rgb(145, 113, 94);
-  border-radius: 125px;
+  border-radius: 50px;
   margin-top: 30px;
   scroll-margin-top: 100px; /* Procurei aprender na internet para poder resolver um problema! */
 }
@@ -680,12 +680,12 @@ _______________________________________________________________________________*
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
   margin-left: 10px;
   margin-right: 10px;
   background-color: rgb(40, 55, 70);
   box-shadow: 0 0 15px rgb(145, 113, 94);
-  border-radius: 125px;
+  border-radius: 50px;
   margin: 50px;
   scroll-margin-top: 150px; /* Procurei aprender na internet para poder resolver um problema! */
 }
@@ -697,12 +697,12 @@ _______________________________________________________________________________*
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
   margin-left: 10px;
   margin-right: 10px;
   background-color: rgb(40, 55, 70);
   box-shadow: 0 0 15px rgb(145, 113, 94);
-  border-radius: 125px;
+  border-radius: 50px;
   margin: 50px;
   margin-bottom: 30px;
   scroll-margin-top: 100px; /* Procurei aprender na internet para poder resolver um problema! */
@@ -719,7 +719,7 @@ _______________________________________________________________________________*
   padding: 2rem;
   background-color: rgb(40, 55, 70);
   box-shadow: 0 0 15px rgb(145, 113, 94);
-  border-radius: 125px;
+  border-radius: 50px;
   margin-top: 20px;
   scroll-margin-top: 100px; /* Procurei aprender na internet para poder resolver um problema! */
 }
@@ -731,12 +731,12 @@ _______________________________________________________________________________*
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
   margin-left: 10px;
   margin-right: 10px;
   background-color: rgb(46, 63, 77);
   box-shadow: 0 0 15px rgb(145, 113, 94);
-  border-radius: 125px;
+  border-radius: 50px;
   margin-top: 50px;
   margin-bottom: 30px;
   scroll-margin-top: 100px; /* Procurei aprender na internet para poder resolver um problema! */
@@ -749,12 +749,12 @@ _______________________________________________________________________________*
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
   margin-left: 10px;
   margin-right: 10px;
   background-color: rgb(44, 48, 70);
   box-shadow: 0 0 15px rgb(145, 113, 94);
-  border-radius: 125px;
+  border-radius: 50px;
   margin-top: 50px;
   margin-bottom: 30px;
   scroll-margin-top: 80px; /* Procurei aprender na internet para poder resolver um problema! */
@@ -768,7 +768,7 @@ _______________________________________________________________________________*
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 95%;
+  width: 90%;
   padding: 3vh;
   background-color: rgb(40, 55, 70);
   box-shadow: 0 0 15px rgb(145, 113, 94);
@@ -781,7 +781,7 @@ _______________________________________________________________________________*
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 95vw;
+  width: 90vw;
   padding: 2rem;
   background-color: rgb(40, 55, 70);
   box-shadow: 0 0 15px rgb(145, 113, 94);
@@ -1053,6 +1053,8 @@ _______________________________________________________________________________*
 /* _____________________________________________ */
 #gifs-fight {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-around;
   width: 100%;
 }
@@ -1060,7 +1062,7 @@ _______________________________________________________________________________*
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30vw;
+  width: 35vw;
 }
 
 #gifs-fight > div > img {
@@ -1102,7 +1104,7 @@ _______________________________________________________________________________*
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
 }
 #gifs-precicion-text {
   color: rgb(220, 220, 220);
@@ -1111,9 +1113,9 @@ _______________________________________________________________________________*
   align-items: center;
 }
 #gifs-precicion-gifs{
+  justify-content: center;
   display: flex;
   width: 90%;
-  justify-content: space-around;
 }
 #gifs-precicion > div > h1 {
   text-align: center;
@@ -1249,6 +1251,9 @@ _______________________________________________________________________________*
 #gifs-precicion > div > img{
   width: 40vw;
   margin-bottom: 5vw;
+}
+#gifs-precicion > div > img:hover {
+  transform: scale(1.5);
 }
 /* _____________________________________________ */
 #gifs-progress > div{
