@@ -1121,7 +1121,7 @@ _______________________________________________________________________________*
 #gifs-precicion > div > img {
   width: 35vw;
   height: auto;
-  margin: 1vh;
+  margin: 0.5vh;
   border-radius: 20px;
   border: 5px solid rgb(3, 19, 49);
   transition: 1s;
