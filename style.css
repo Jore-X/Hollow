@@ -436,14 +436,29 @@ footer > div > a > img {
   background-image: url(./assets/img/Maps/Kings_Pass_100_compress.png);
   animation: moveLinear 60s ease-in-out infinite alternate;
 }
-/* _____________________________________________ */
-#analise-aprofundada {
+#backgroundFixed {
+  /* _____________________________________________ */
   background: url(./assets/img/Maps/Greenpath_100_horizontal.png);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   animation: moveLinear 60s ease-in-out infinite alternate;
+  /* _____________________________________________ */
+
+  position: fixed;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+}
+/* _____________________________________________ */
+#analise-aprofundada {
+  /* background: url(./assets/img/Maps/Greenpath_100_horizontal.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: moveLinear 60s ease-in-out infinite alternate; */
   /* _____________________________________________ */
   color: rgb(0, 15, 40);
   display: flex;
